@@ -1,0 +1,51 @@
+h1{
+color: red;
+text-shadow:2px 3px 0 white;
+text-align:left;
+}
+body{
+  background-color: lightblue;
+  padding: 25px;
+}
+a{
+  color: red;
+}
+h2{
+  text-align: left;
+  text-shadow: 2px 3px 0 white;
+}
+#hovedbilde{
+  border-radius: 5px
+}
+ul{
+  list-style-type: circle;
+  margin: 0;
+  padding:0;
+
+}
+ul li{
+  display: inline;
+}
+ul a{
+  background-color: red;
+  margin: 3px;
+  padding: 10px 30px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+ul a:hover{
+background-color: lightyellow;
+}
+img{
+  border-width: 7px;
+  border-style: solid;
+  border-color: red;
+  filter: invert(0%);
+}
+
+video{
+  border-width: 7px;
+  border-style: solid;
+  border-color: red;
+}

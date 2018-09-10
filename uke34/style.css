@@ -1,0 +1,39 @@
+p{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin: auto;
+}
+
+img{
+  border-width: 10px;
+  border-style: solid;
+  border-color: lightblue;
+}
+
+#hovedbilde{
+border-radius: 5px;
+
+}
+
+h1{
+  color:lightblue;
+  text-shadow:2px 3px 0 darkgreen;
+}
+
+h2{
+color: black;
+text-shadow: 2px 3px 0 lightblue;
+}
+
+a{
+color: red;
+
+}
+
+video{
+border-width: 10px;
+border-style: solid;
+border-color: lightblue;
+}
