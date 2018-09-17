@@ -1,0 +1,61 @@
+body{
+  background-color: pink;
+  margin:20px;
+}
+img{
+  width: 300px;
+  border-color: white;
+  border-style: solid;
+  border-width: 7px;
+}
+p{
+  width: 300px;
+}
+#hovedbilde{
+border-radius: 5px;
+}
+h1{
+  text-align: left;
+  text-shadow: 2px 3px 0 white;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 5px;
+}
+
+h2{
+  text-align: left;
+  text-shadow: 2px 3px 0 white;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+}
+ul li{
+height: 50px;
+}
+
+ul a{
+  background-color: lightblue;
+  margin: 3px;
+  padding: 10px 30px;
+  color:  red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ul a:hover{
+background-color: white;
+}
+
+li{
+  display: block;
+  color: black;
+  padding: 8px 16px
+  text
+}
