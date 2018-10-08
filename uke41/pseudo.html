@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="nb" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>pseudo</title>
+  </head>
+
+<style media="screen">
+  img{
+    width: 300px;
+    transition: 1s;
+  }
+  img:hoer{
+    width: 600px;
+    transform: scale(2);
+  }
+  #det2bildet:active{
+    transform:translateX(100px);
+  }
+  #det1bildet:hover{
+    transform: scale(2);
+  }
+</style>
+
+  <body>
+
+<img id="det1bildet"src="team.jpg" alt="">
+<img id="det2bildet"src="team.jpg" alt="">
+
+  </body>
+</html>
