@@ -1,0 +1,49 @@
+header{
+  background-color: lightblue;
+  position: fixed;
+  top: 0px;
+  display: grid;
+  grid-template-columns: 2fr 5fr 1fr 1fr 1fr;
+  width: 100%;
+}
+body{
+  background-color: lightblue;
+
+}
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  grid-auto-rows: minmax(50px,auto)
+}
+.litensak{
+  font-size: 30px;
+}
+.middelssak{
+  grid-column: span 2;
+  grid-row: span 2;
+  font-size: 70px;
+}
+.storsak{
+  grid-column: span 3;
+  grid-row: span 2;
+}
+main>section{
+  background-color: ;
+}
+img{
+  width: 100%;
+  ;
+}
+header>.lenke{
+  align-self: center;
+}
+header>.lenke>a{
+  color: white;
+  text-decoration: none;
+}
+#logo{
+  font-size: 32px;
+  color: white;
+  padding-left: 10px;
+}
