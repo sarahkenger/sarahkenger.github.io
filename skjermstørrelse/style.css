@@ -1,0 +1,83 @@
+.grid{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media(max-width:1400px){
+  body{
+    background-color: yellow;
+  }
+  .grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media(max-width:1000px){
+  body{
+    background-color: green;
+  }
+  .grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media(max-width:800px){
+  body{
+    background-color: red;
+  }
+  .grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width:600px){
+  body{
+    background-color: blue;
+  }
+  .grid{
+    grid-template-columns: 1fr;
+  }
+}
+/*navigasjonsbar*/
+
+header>nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+@media(max-width:600px){
+  header>nav{
+    flex-direction: column;
+  }
+}
+
+
+/*navigasjonsbar slutt*/
+body{
+  background-image:url(høst.jg);
+}
+img{
+  width: 100%;
+}
+
+.burger{
+  height: 16px;
+  width: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.brod{
+  background-color: brown;
+  width: 10px;
+  height: 5px;
+}
+.kjott{
+  background-color: red;
+  width: 10px;
+  height: 5px;
+
+}
